@@ -17,8 +17,7 @@
     margin-left: 300px;
 }
 
-.Btn:hover
-{
+.Btn:hover{
     background: rgb(123, 125, 126);
 }
 
@@ -28,3 +27,21 @@
     margin-left: 650px;
     margin-top: 200px;
 }
+
+@keyframes html {
+    from {
+      width: 0;
+    }
+    to {
+      width: 80%;
+    }
+  }
+  
+  @keyframes css {
+    from {
+      width: 0;
+    }
+    to {
+      width: 70%;
+    }
+  }
