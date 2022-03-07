@@ -17,6 +17,11 @@
     margin-left: 300px;
 }
 
+.Btn:hover
+{
+    background: rgb(123, 125, 126);
+}
+
 .time
 {
     font-size: 38px;
