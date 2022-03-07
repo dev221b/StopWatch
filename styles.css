@@ -27,21 +27,3 @@
     margin-left: 650px;
     margin-top: 200px;
 }
-
-@keyframes html {
-    from {
-      width: 0;
-    }
-    to {
-      width: 80%;
-    }
-  }
-  
-  @keyframes css {
-    from {
-      width: 0;
-    }
-    to {
-      width: 70%;
-    }
-  }
