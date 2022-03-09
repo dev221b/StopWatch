@@ -3,6 +3,14 @@
     background-color: rgb(162, 179, 189);
     
 }
+
+h1{
+    text-align: center;
+    font-family: Orbitron;
+    color: rgb(33, 33, 134);
+    font-weight: bold;
+}
+
 .Btn
 {
     color: black;
@@ -13,24 +21,56 @@
     width: 100px;
     height: 100px;
     border-color: black;
-    margin-top: 80px;
+    margin-top: 120px;
     margin-left: 300px;
+    cursor: pointer;
+
+    
 }
 
-.Btn:hover{
-    background: rgb(123, 125, 126);
+#btnReset:hover{
+    background-color: rgb(205, 228, 76);
+    transform: scale(1.2)
 }
+
+#btnStart:hover
+{
+    background-color: rgb(54, 141, 62);
+    transform: scale(1.2)
+}
+#btnStop:hover
+{
+    background-color: rgb(230, 54, 54);
+    transform: scale(1.2)
+}
+
+
 
 .time
 {
     font-size: 38px;
-    margin-left: 650px;
-    margin-top: 200px;
+    margin-left: 640px;
+    margin-top: 160px;
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  body {
-    background: #999;
-    width: 100%;
-  }
-}
+/* @media only screen and (max-width : 700px) {
+    .Container {
+      width: 100%;
+      background: rgb(162, 179, 189);
+      position: absolute;
+      top: 25px;
+      right: -100;
+      z-index: -20;
+      flex-direction: row;
+    }
+    .time{
+        margin-left: 10px;
+        margin-right: 100px;
+
+    }
+    .Btn{
+        width: 100%;
+        
+
+    }
+  } */
