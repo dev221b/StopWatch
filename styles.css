@@ -52,25 +52,3 @@ h1{
     margin-left: 640px;
     margin-top: 160px;
 }
-
-/* @media only screen and (max-width : 700px) {
-    .Container {
-      width: 100%;
-      background: rgb(162, 179, 189);
-      position: absolute;
-      top: 25px;
-      right: -100;
-      z-index: -20;
-      flex-direction: row;
-    }
-    .time{
-        margin-left: 10px;
-        margin-right: 100px;
-
-    }
-    .Btn{
-        width: 100%;
-        
-
-    }
-  } */
