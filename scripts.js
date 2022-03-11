@@ -8,11 +8,13 @@ window.onload = function(){
       var buttonStart = document.getElementById("btnStart");
       var buttonStop = document.getElementById("btnStop");
       var buttonReset = document.getElementById("btnReset");
+      
       var interval;     
 
       buttonStart.addEventListener('click', () =>
       {
         interval = setInterval(timerun, 10);
+        
       })
 
       function timerun()
@@ -47,6 +49,7 @@ window.onload = function(){
         buttonStop.addEventListener('click', () =>
         {
           clearInterval(interval);
+          
         });
 
         buttonReset.addEventListener('click', () =>
@@ -58,6 +61,7 @@ window.onload = function(){
           dispCentiSecs.innerHTML = centisecs;
           dispSecs.innerHTML = seconds;
           dispMins.innerHTML = minutes;
+          
         });
         
       }
